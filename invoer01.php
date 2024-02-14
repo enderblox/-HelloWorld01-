@@ -1,8 +1,8 @@
 <?php
 
-$invoer = readline("Discord is stom");
+$invoer = readline("woede");
 
-echo "Dit vind ik van Discord: $invoer";
+echo "Dit voel ik op het moment: $invoer";
 echo "\n";
 
 
