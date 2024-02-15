@@ -2,7 +2,7 @@
 
 $tafel=readline("Welke tafel wil je zien? ");
 $begin=1;
-$eind=15;
+$eind=70;
 
 echo "\n\nTafel van $tafel:\n";
 
