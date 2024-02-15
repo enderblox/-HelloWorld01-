@@ -1,7 +1,7 @@
 <?php
 
 function func(){
-    echo "= Deze code is in func() uitgevoerd.\n";
+    echo "+ Deze code is in func() uitgevoerd.\n";
 }
 
 echo "- Deze code is voor de for-lus uitgevoerd.\n";
