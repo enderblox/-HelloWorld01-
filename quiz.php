@@ -1,7 +1,7 @@
 <?php
 
 $random=rand(1,100);
-$getal=$random;
+$getal=$antwoord;
 $antwoord=readline("Geef je antwoord: ");
 
 if($random==$getal){
