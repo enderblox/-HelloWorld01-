@@ -1,18 +1,22 @@
 <?php
 
 $random=rand(1,100);
-$antwoord=readline("Geef je antwoord: ");
-$getal=$antwoord;
+echo "$random";
+$getal = 0;
+while($random != $getal){
 
-if($random==$getal){
-    echo "Jij hebt gewonnen!\n";
+    $getal=readline("Geef je antwoord: ");
+
+    if($random<$getal){
+        echo "Fout geraden.\n";
+    }
+
+    if($random>$getal){
+        echo "Fout geraden.\n";
+    }
+
 }
 
-if($random<$getal){
-    echo "Fout geraden.\n";
-}
+echo "Geraden, gefeliciteerd";
 
-if($random>$getal){
-    echo "Fout geraden.\n";
-}
 ?>
