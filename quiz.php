@@ -17,6 +17,7 @@ while($random != $getal){
 
 }
 
+
 echo "Geraden, gefeliciteerd";
 
 ?>
