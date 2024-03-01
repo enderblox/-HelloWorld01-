@@ -3,6 +3,8 @@
 $random=rand(1,100);
 echo "$random";
 $getal = 0;
+
+
 while($random != $getal){
 
     $getal=readline("Geef je antwoord: ");
