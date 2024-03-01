@@ -1,7 +1,6 @@
 <?php
 
 $random=rand(1,100);
-echo "$random";
 $getal = 0;
 $beurt = 1;
 
@@ -16,6 +15,11 @@ while($random != $getal){
 
     if($random!=$getal){
         echo "Fout geraden.\n";
+        if($getal<$random){
+           echo "Het getal is hoger.\n";
+        } else {
+            echo "Het getal is lager.\n";
+        }
         $beurt++;
     }
 
