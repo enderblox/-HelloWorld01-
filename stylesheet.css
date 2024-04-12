@@ -1,11 +1,35 @@
 h1{
-   color:crimson;
+   color:rgb(3, 173, 11);
 }
 
 h2{
-    color: rgb(92, 78, 188);
+    color: rgb(0, 216, 47);
+}
+
+p{
+    color: rgb(0, 216, 47);
+}
+
+.body{
+    background-color: black;
 }
 
 .maker{
-   
+   font-family: "papyrus";
+}
+
+.mijzelf{
+    font-family: "papyrus";
+}
+
+.werk{
+    font-family: "papyrus";
+}
+
+.school{
+    font-family: "papyrus";
+}
+
+.photo{
+    font-family: "papyrus";
 }
