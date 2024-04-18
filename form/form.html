@@ -7,44 +7,44 @@
 	<br>
 
 	<input type="text" id="fname" name="fname" 
-		placeholder="Voornaam" value="">
+		placeholder="Voornaam" value="" maxlength="100" required>
 	<br>
 
 	<label for="lname">Achternaam:</label>
 	<br>
 
 	<input type="text" id="lname" name="lname" 
-		placeholder="achternaam" value="">
+		placeholder="achternaam" value="" maxlength="100" required>
 	<br>
 
     <label for="adres">Adres:</label>
 	<br>
 
-    <input type="text" id="adres" name="adres" placeholder="adres">
+    <input type="text" id="adres" name="adres" placeholder="adres" required>
     <br>
     
     <label for="postcode">Postcode:</label>
     <br>
 
-    <input type="text" id="postcode" name="postcode" placeholder="postcode">
+    <input type="text" id="postcode" name="postcode" placeholder="postcode" maxlength="6" required>
     <br>
 
     <label for="plaats">Plaats:</label>
     <br>
 
-    <input type="text" id="plaats" name="plaats" placeholder="plaats">
+    <input type="text" id="plaats" name="plaats" placeholder="plaats" maxlength="100" required>
     <br>
     
     <label for="geboorte">Geboortedatum:</label>
     <br>
 
-    <input type="date" id="geboorte" name="geboorte">
+    <input type="date" id="geboorte" name="geboorte" required>
     <br>
 
     <label for="email">E-mail:</label>
     <br>
 
-    <input type="email" id="email" name="email" placeholder="E-mail">
+    <input type="email" id="email" name="email" placeholder="E-mail" required>
     <br>
 
     <label>Geslacht:</label>
@@ -56,7 +56,18 @@
     <input type="radio" id="female" name="female" value="female">
     <label for="female">Female</label>
     <br>
+
+    <label for="opmerking">Opmerking:</label>
     <br>
+
+    <textarea maxlength="400">opmerking</textarea>
+    <br>
+
+    <input type="checkbox" id="nieuws" required>
+    <label for="nieuws">Inschrijven voor nieuwsbrief</label>
+    <br>
+    <br>
+
 
 	<input type="submit" value="Submit">
 </form>
