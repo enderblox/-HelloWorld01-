@@ -1,4 +1,7 @@
-body{
+.body{
     color:blueviolet;
 }
 
+label{
+    color: rgb(30, 38, 186);
+}
