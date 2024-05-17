@@ -1,4 +1,16 @@
-.article {
+article {
+    color: darkviolet;
+}
+
+body {
+    background-color: black;
+}
+
+.flex {
     display: flex;
     justify-content: center;
+}
+
+h1 {
+    color: darkviolet;
 }
