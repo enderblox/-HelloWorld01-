@@ -27,10 +27,10 @@ ul {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-li {
+.about {
     display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -45,12 +45,37 @@ li {
   box-shadow: 0 9px yellow;
 }
 
-li:hover {
+.about:hover {
     background-color: rgb(104, 0, 0);
 }
 
-li:active {
+.about:active {
     background-color: darkred;
     box-shadow: 0 5px rgb(4, 175, 30);
+    transform: translateY(4px);
+}
+
+.home {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px yellow;
+}
+
+.home:hover {
+    background-color: rgb(34, 17, 85);
+}
+
+.home:active {
+    background-color: darkblue;
+    box-shadow: 0 5px yellow;
     transform: translateY(4px);
 }
