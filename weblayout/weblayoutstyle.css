@@ -14,3 +14,43 @@ body {
 h1 {
     color: darkviolet;
 }
+
+.abouth1 {
+    color: darkred;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkred;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px yellow;
+}
+
+li:hover {
+    background-color: rgb(104, 0, 0);
+}
+
+li:active {
+    background-color: darkred;
+    box-shadow: 0 5px rgb(4, 175, 30);
+    transform: translateY(4px);
+}
