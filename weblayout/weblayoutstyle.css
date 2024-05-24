@@ -27,7 +27,7 @@ ul {
 
 a:link {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(63, 169, 249);
 }
 
 .about {
@@ -102,5 +102,30 @@ a:link {
 .products:active {
     background-color: rgba(255, 204, 0, 0.795);
     box-shadow: 0 5px rgb(148, 0, 0);
+    transform: translateY(4px);
+}
+
+.contacts {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(203, 182, 0);
+}
+
+.contacts:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.contacts:active {
+    background-color: rgba(201, 0, 0, 0.795);
+    box-shadow: 0 5px rgb(203, 182, 0);
     transform: translateY(4px);
 }
