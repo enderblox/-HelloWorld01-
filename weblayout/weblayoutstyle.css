@@ -21,6 +21,14 @@ h1 {
     color: darkred;
 }
 
+.productsh1 {
+    color: lightcyan;
+}
+
+.contactsh1 {
+    color: rgba(255, 204, 0, 0.795);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
